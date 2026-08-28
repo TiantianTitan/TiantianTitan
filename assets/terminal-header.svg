@@ -1,0 +1,54 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16384A"/>
+      <stop offset="0.48" stop-color="#37E8E2"/>
+      <stop offset="1" stop-color="#9AFFB4"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#43F0E7" stroke-opacity="0.055"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g>
+    <rect width="1200" height="320" rx="18" fill="#050B14"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <path d="M0 256H167L204 219H335L374 258H492" stroke="#43F0E7" stroke-opacity="0.15"/>
+    <path d="M1200 78H1060L1018 120H925L887 82H802" stroke="#9AFFB4" stroke-opacity="0.15"/>
+    <path d="M0 66H129L161 98H294" stroke="#43F0E7" stroke-opacity="0.1"/>
+    <path d="M1200 272H1098L1066 240H936" stroke="#9AFFB4" stroke-opacity="0.1"/>
+
+    <circle cx="28" cy="28" r="4" fill="#FF6B6B"/>
+    <circle cx="44" cy="28" r="4" fill="#FFD166"/>
+    <circle cx="60" cy="28" r="4" fill="#8BFFB0"/>
+    <text x="82" y="33" fill="#64748B" font-family="DejaVu Sans Mono, monospace" font-size="12" letter-spacing="1.6">PROFILE.SYS / BUILD 2026.08</text>
+    <text x="1118" y="33" fill="#8BFFB0" font-family="DejaVu Sans Mono, monospace" font-size="11" text-anchor="end">● ONLINE</text>
+
+    <text x="58" y="129" fill="#E6FAFF" font-family="DejaVu Sans Mono, monospace" font-size="48" font-weight="700">TiantianTitan</text>
+    <rect x="58" y="149" width="486" height="2" fill="url(#edge)" filter="url(#glow)"/>
+    <text x="58" y="182" fill="#43F0E7" font-family="DejaVu Sans Mono, monospace" font-size="14" letter-spacing="2.2">FULL-STACK DEVELOPER // PRODUCT ENGINEER</text>
+    <text x="58" y="218" fill="#8095A8" font-family="DejaVu Sans Mono, monospace" font-size="13" letter-spacing="1.2">WEB · MOBILE · DATA · PLATFORM · AUTOMATION</text>
+    <rect x="474" y="207" width="8" height="14" fill="#8BFFB0"/>
+
+    <g font-family="DejaVu Sans Mono, monospace" font-size="13">
+      <text x="750" y="113" fill="#64748B">$ system.identity</text>
+      <text x="750" y="139" fill="#D7F9F5">FREELANCE / INDEPENDENT</text>
+      <text x="750" y="181" fill="#64748B">$ system.scope</text>
+      <text x="750" y="207" fill="#D7F9F5">BUILD / MAINTAIN / OPERATE</text>
+      <text x="750" y="249" fill="#64748B">$ system.status</text>
+      <text x="750" y="275" fill="#8BFFB0">READY_TO_SHIP</text>
+    </g>
+
+    <g fill="none" stroke="#43F0E7">
+      <circle cx="688" cy="113" r="4" fill="#43F0E7" filter="url(#glow)"/>
+      <circle cx="688" cy="113" r="18" opacity="0.16"/>
+      <circle cx="1129" cy="274" r="3" fill="#9AFFB4" stroke="#9AFFB4" filter="url(#glow)"/>
+      <circle cx="1129" cy="274" r="14" stroke="#9AFFB4" opacity="0.14"/>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="318" rx="17" stroke="url(#edge)" stroke-opacity="0.7" stroke-width="2"/>
+</svg>
