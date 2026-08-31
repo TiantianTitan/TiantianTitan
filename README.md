@@ -1,59 +1,74 @@
 <div align="center">
-  <img width="100%" src="./assets/terminal-header.svg" alt="TiantianTitan — Full-Stack Developer" />
+  <img width="100%" src="./assets/terminal-header.svg" alt="TiantianTitan — freelance full-stack developer" />
 
-  <a href="#english"><img src="https://img.shields.io/badge/DEFAULT-ENGLISH-06121f?style=flat-square&labelColor=00b8c8&color=06121f" alt="Default language: English" /></a>
-  <a href="#language-versions"><img src="https://img.shields.io/badge/LANGUAGE-%E4%B8%AD%E6%96%87-06121f?style=flat-square&labelColor=334155&color=06121f" alt="中文" /></a>
-  <a href="#language-versions"><img src="https://img.shields.io/badge/LANGUE-FRAN%C3%87AIS-06121f?style=flat-square&labelColor=334155&color=06121f" alt="Français" /></a>
-
-  <br />
-
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2600&pause=1000&color=43F0E7&center=true&vCenter=true&width=820&lines=%24+build+--target+web%2Cmobile%2Cdata%2Cplatform;%24+maintain+--quality+production+--mode+continuous;%24+ship+ideas+into+reliable+products" alt="Animated developer commands" />
+  <p>
+    <a href="#language-versions"><img src="https://img.shields.io/badge/DEFAULT-ENGLISH-06121f?style=flat-square&labelColor=00b8c8&color=06121f" alt="Default language: English" /></a>
+    <a href="#language-versions"><img src="https://img.shields.io/badge/LANGUAGE-%E4%B8%AD%E6%96%87-06121f?style=flat-square&labelColor=334155&color=06121f" alt="Chinese version" /></a>
+    <a href="#language-versions"><img src="https://img.shields.io/badge/LANGUE-FRAN%C3%87AIS-06121f?style=flat-square&labelColor=334155&color=06121f" alt="French version" /></a>
+  </p>
 
   <p>
     <a href="#profile"><kbd>01 PROFILE</kbd></a>&nbsp;
-    <a href="#projects"><kbd>02 PROJECTS</kbd></a>&nbsp;
-    <a href="#stack"><kbd>03 STACK</kbd></a>&nbsp;
-    <a href="#activity"><kbd>06 ACTIVITY</kbd></a>
+    <a href="#featured"><kbd>02 FEATURED BUILD</kbd></a>&nbsp;
+    <a href="#stack"><kbd>03 SYSTEM MAP</kbd></a>&nbsp;
+    <a href="#projects"><kbd>04 PROJECT ARCHIVE</kbd></a>&nbsp;
+    <a href="#activity"><kbd>06 LIVE ACTIVITY</kbd></a>
   </p>
+
+  <samp>FREELANCE // FULL-STACK // PRODUCT SYSTEMS // ALWAYS IN ITERATION</samp>
 </div>
 
-<a id="english"></a>
+<p align="center">
+  <img width="100%" src="https://github.com/TiantianTitan/TiantianTitan/raw/refs/heads/main/assets/data-stream.svg" alt="Animated data stream" />
+</p>
+
 <a id="profile"></a>
 
-## `01 // PROFILE`
+## `01 // FREELANCE OPERATING PROFILE`
 
-```yaml
-identity:  TiantianTitan
-role:      Freelance Full-Stack Developer
-scope:     [Product Development, Software Engineering, Code Maintenance]
-systems:   [Databases, Platform Operations, Web, Mobile]
-mode:      Build → Ship → Observe → Improve
-```
+<table>
+  <tr>
+    <td width="62%" valign="top">
+      <h3>From an idea to a dependable product.</h3>
+      <p>I am a freelance full-stack developer. I build software across the complete product lifecycle: shaping requirements, engineering features, maintaining codebases, managing data, and keeping platforms healthy after launch.</p>
+      <p>I work best where product thinking and engineering discipline need to meet—making complex systems easier to use, safer to change, and ready for the next iteration.</p>
+    </td>
+    <td width="38%" valign="top">
+      <h3>MISSION CONTROL</h3>
+      <p><code>STATUS</code> Freelance / Independent</p>
+      <p><code>MODE</code> Build → Ship → Observe → Improve</p>
+      <p><code>SCOPE</code> Web · Mobile · Data · Platform</p>
+      <p><code>PRIORITY</code> Clarity · Maintainability · Delivery</p>
+    </td>
+  </tr>
+</table>
 
-I am a freelance full-stack developer who builds and maintains software across the full product lifecycle—from translating real-world needs into working features to keeping databases, platforms, and production systems healthy. I care about maintainable code, dependable delivery, and products that become better with every iteration.
-
-- `PRODUCT` — turning requirements into clear, usable experiences
-- `ENGINEERING` — full-stack implementation across web, mobile, data, and integrations
-- `RELIABILITY` — code maintenance, database stewardship, platform operations, and continuous improvement
-- `EXPLORATION` — AI-assisted workflows, automation, and more expressive human–computer interaction
-
-<p align="center">
-  <img width="100%" src="./assets/data-stream.svg" alt="Animated data stream divider" />
-</p>
-
-<a id="projects"></a>
-
-## `02 // FEATURED PROJECT`
-
-<h3 align="center">
-  <a href="https://github.com/TiantianTitan/codex-anime-pets">CODEX ANIME PETS</a>
-  <code>ANIMATION SYSTEM</code>
-</h3>
+<div align="center">
+  <code>PRODUCT DELIVERY</code> · <code>FULL-STACK ENGINEERING</code> · <code>DATABASE STEWARDSHIP</code> · <code>PLATFORM OPERATIONS</code>
+</div>
 
 <p align="center">
-  A production pipeline that turns character art into installable Codex v2 animated desktop companions.<br />
-  <code>9 animation states</code> · <code>16 gaze directions</code> · <code>2D + 3D styles</code> · <code>deterministic atlas assembly</code> · <code>visual QA</code>
+  <img width="100%" src="https://github.com/TiantianTitan/TiantianTitan/raw/refs/heads/main/assets/data-stream.svg" alt="Animated data stream" />
 </p>
+
+<a id="featured"></a>
+
+## `02 // FEATURED BUILD — CODEX ANIME PETS`
+
+<table>
+  <tr>
+    <td width="66%" valign="top">
+      <h3><a href="https://github.com/TiantianTitan/codex-anime-pets">Codex Anime Pets ↗</a></h3>
+      <p>A production pipeline that turns character art into installable Codex v2 animated desktop companions. Every pet is designed as a complete, testable animation system—not a static illustration.</p>
+    </td>
+    <td width="34%" valign="top">
+      <p><code>09</code> animation states</p>
+      <p><code>16</code> gaze directions</p>
+      <p><code>2D + 3D</code> visual styles</p>
+      <p><code>QA</code> deterministic atlas validation</p>
+    </td>
+  </tr>
+</table>
 
 <table align="center">
   <tr>
@@ -66,56 +81,76 @@ I am a freelance full-stack developer who builds and maintains software across t
 </table>
 
 <p align="center">
-  <a href="https://github.com/TiantianTitan/codex-anime-pets"><strong>ACCESS REPOSITORY →</strong></a>
+  <a href="https://github.com/TiantianTitan/codex-anime-pets"><strong>OPEN THE ANIMATION SYSTEM →</strong></a>
 </p>
 
 <a id="stack"></a>
 
-## `03 // SYSTEM STACK`
+## `03 // SYSTEM MAP`
 
-```text
-┌─ APPLICATION LAYER
-├── Web ........ TypeScript · React · Next.js · Tailwind CSS · Ant Design
-├── Mobile ..... React Native · Expo · Capacitor
-├── Data ....... PostgreSQL · Prisma · Supabase · Redis
-├── Creative ... Unity · C# · Python · Animation Pipelines
-└── Delivery ... Turborepo · Playwright · GitHub Actions · AWS · Vercel · Cloudflare
-```
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><code>01</code> EXPERIENCE LAYER</h3>
+      <p><strong>Web & UI</strong><br />TypeScript · React · Next.js · Tailwind CSS · Ant Design</p>
+      <p><strong>Mobile</strong><br />React Native · Expo · Capacitor</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><code>02</code> DATA LAYER</h3>
+      <p><strong>Application & Data</strong><br />Node.js · PostgreSQL · Prisma · Supabase · Redis</p>
+      <p><strong>Integrations</strong><br />AWS S3 · Clerk · Stripe · OpenAI</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><code>03</code> CREATIVE LAYER</h3>
+      <p><strong>Interactive Work</strong><br />Unity · C# · Python · Animation Pipelines</p>
+      <p><strong>Quality</strong><br />Visual QA · Sprite Sheets · Localization</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><code>04</code> DELIVERY LAYER</h3>
+      <p><strong>Engineering Operations</strong><br />Turborepo · Playwright · GitHub Actions</p>
+      <p><strong>Platform</strong><br />Vercel · Cloudflare · AWS</p>
+    </td>
+  </tr>
+</table>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=ts,js,python,cs,react,nextjs,tailwind,nodejs,postgres,prisma,supabase,redis,unity,githubactions,aws,vercel,cloudflare&theme=dark&perline=9" alt="Technology stack" />
 </div>
 
-## `04 // SELECTED WORK`
+<a id="projects"></a>
+
+## `04 // PROJECT ARCHIVE`
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/friemidev/friemi">FRIEMI ↗</a></h3>
+      <h3><code>WEB / SOCIAL</code><br /><a href="https://github.com/friemidev/friemi">FRIEMI ↗</a></h3>
       <p>A multilingual activity discovery and meetup platform for life abroad—connecting city events, group plans, messaging, social footprints, and offline game tools.</p>
       <p><code>TypeScript</code> <code>Next.js</code> <code>Prisma</code> <code>Supabase</code> <code>Redis</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3>OLD-6 <sub>PRIVATE SYSTEM</sub></h3>
+      <h3><code>PLATFORM / LOCAL LIFE</code><br />OLD-6 <sub>PRIVATE SYSTEM</sub></h3>
       <p>A multi-platform service ecosystem for the Chinese community in France, spanning local businesses, bookings, content, community features, and platform operations.</p>
       <p><code>Next.js</code> <code>React Native</code> <code>Expo</code> <code>PostgreSQL</code> <code>Cloudflare</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/dandelion-technologie/yi-credit">YI CREDIT ↗</a></h3>
+      <h3><code>FINTECH / SERVICES</code><br /><a href="https://github.com/dandelion-technologie/yi-credit">YI CREDIT ↗</a></h3>
       <p>A multilingual platform for credit and financing advisory services in France, supporting content delivery, document workflows, and digital operations.</p>
       <p><code>Next.js</code> <code>Expo</code> <code>Prisma</code> <code>AWS S3</code> <code>OpenAI</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/TiantianTitan/IDLE-SHOP">POCKET SHOP ↗</a></h3>
+      <h3><code>GAME / MOBILE</code><br /><a href="https://github.com/TiantianTitan/IDLE-SHOP">POCKET SHOP ↗</a></h3>
       <p>A multilingual Unity 2D idle shop game for Android with automated customers, inventory, staff progression, local saves, and offline earnings.</p>
       <p><code>Unity</code> <code>C#</code> <code>Android</code> <code>Localization</code></p>
     </td>
   </tr>
 </table>
 
-## `05 // OFFLINE MODE`
+## `05 // HUMAN SIGNAL`
 
 <p align="center">
   <code>🎤 KARAOKE</code>&nbsp;&nbsp;
@@ -125,69 +160,43 @@ I am a freelance full-stack developer who builds and maintains software across t
   <code>📚 READING</code>
 </p>
 
----
-
 <a id="language-versions"></a>
 
 <details>
 <summary><strong>中文 · Chinese</strong></summary>
 
-<a id="中文--chinese"></a>
+### `自由职业全栈开发者`
 
-### `个人简介`
+我承接产品与软件开发、代码维护、数据库管理和平台运维。我的工作覆盖从需求梳理、功能开发到上线后的系统维护，重点是让产品清晰、代码可维护、交付可靠，并能持续迭代。
 
-我是一名**自由职业全栈开发者**，承接项目开发、软件开发与交付、代码维护、数据库管理和平台运维。我喜欢从真实需求出发，把想法变成可上线、可维护、能够持续演进的产品。
-
-- 覆盖 Web、移动端、数据库、系统集成与平台维护
-- 重视代码可维护性、稳定交付和长期产品演进
-- 拥有多语言、海外生活服务、金融服务与跨端产品经验
-- 持续探索 AI 工具、自动化工作流和人机交互
-
-### `主要项目`
-
-- **Codex Anime Pets**：将角色素材转化为 Codex v2 动画桌面伙伴的完整制作与质量验证流程
-- **Friemi**：面向海外生活场景的多语言活动发现、组局与轻社交平台
-- **Old-6**：服务法国华人社区，覆盖本地商家、预约、内容和社区功能的多端平台
-- **YI Credit · 易信贷**：面向法国贷款与融资咨询场景的多语言数字平台
-- **口袋小店**：支持多语言、本地存档和离线收益的 Unity 2D Android 挂机经营游戏
-
-### `工作之外`
-
-唱 K · 乒乓球 · 看电影 · 徒步 · 阅读
+| 方向 | 内容 |
+| --- | --- |
+| 产品与工程 | Web、移动端、跨端产品与系统集成 |
+| 数据与平台 | 数据库、代码维护、平台运维与稳定交付 |
+| 主要项目 | Codex Anime Pets、Friemi、Old-6、YI Credit、口袋小店 |
+| 工作之外 | 唱 K、乒乓球、电影、徒步、阅读 |
 
 </details>
 
 <details>
 <summary><strong>Français · French</strong></summary>
 
-<a id="français--french"></a>
+### `Développeur full-stack freelance`
 
-### `Profil`
+Je réalise le développement de produits et de logiciels, la maintenance du code, la gestion des bases de données et l'exploitation de plateformes. Mon travail couvre tout le cycle de vie d'un produit, des besoins initiaux jusqu'à l'amélioration continue après la mise en ligne.
 
-Je travaille en freelance comme développeur full-stack. Je prends en charge le développement et la livraison de projets logiciels, la maintenance du code, la gestion des bases de données ainsi que l'exploitation des plateformes. J'aime transformer des besoins concrets en produits fiables, maintenables et capables d'évoluer dans le temps.
-
-- Développement Web et mobile, bases de données, intégrations et maintenance de plateformes
-- Attention portée à la qualité du code, à la fiabilité des livraisons et à l'évolution durable des produits
-- Expérience de produits multilingues et multiplateformes dans les services de proximité et la finance
-- Exploration des outils d'IA, de l'automatisation et de nouvelles formes d'interaction humain-machine
-
-### `Projets principaux`
-
-- **Codex Anime Pets** : une chaîne complète de création et de contrôle qualité pour transformer des personnages en compagnons animés Codex v2
-- **Friemi** : une plateforme multilingue de découverte d'activités, d'organisation de sorties et de lien social pour la vie à l'étranger
-- **Old-6** : une plateforme multiservice destinée à la communauté chinoise en France
-- **YI Credit** : une plateforme multilingue de conseil en crédit et en financement en France
-- **Pocket Shop** : un jeu de gestion idle 2D sous Unity pour Android, multilingue et jouable hors ligne
-
-### `En dehors du code`
-
-Karaoké · Tennis de table · Cinéma · Randonnée · Lecture
+| Domaine | Contenu |
+| --- | --- |
+| Produit & ingénierie | Web, mobile, applications multiplateformes et intégrations |
+| Données & plateformes | Bases de données, maintenance, exploitation et livraisons fiables |
+| Projets principaux | Codex Anime Pets, Friemi, Old-6, YI Credit, Pocket Shop |
+| En dehors du code | Karaoké, tennis de table, cinéma, randonnée, lecture |
 
 </details>
 
 <a id="activity"></a>
 
-## `06 // CONTRIBUTION STREAM`
+## `06 // LIVE CONTRIBUTION STREAM`
 
 <p align="center">
   <picture>
@@ -212,8 +221,6 @@ Karaoké · Tennis de table · Cinéma · Randonnée · Lecture
 
 <p align="center">
   <code>SYSTEM ONLINE</code> · <code>KEEP BUILDING</code> · <code>KEEP SHIPPING</code>
-</p>
-
-<p align="center">
-  <img width="100%" src="./assets/data-stream.svg" alt="Animated data stream footer" />
+  <br /><br />
+  <img width="100%" src="https://github.com/TiantianTitan/TiantianTitan/raw/refs/heads/main/assets/data-stream.svg" alt="Animated data stream" />
 </p>
