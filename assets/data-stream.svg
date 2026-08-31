@@ -1,0 +1,25 @@
+<svg width="1200" height="52" viewBox="0 0 1200 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes stream-forward { to { stroke-dashoffset: -150; } }
+    @keyframes stream-reverse { to { stroke-dashoffset: 150; } }
+    @keyframes live-pulse { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+    .forward { animation: stream-forward 4.5s linear infinite; }
+    .reverse { animation: stream-reverse 6s linear infinite; }
+    .live { animation: live-pulse 1.9s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) { .forward, .reverse, .live { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="1200" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#123747"/>
+      <stop offset="0.5" stop-color="#37E8E2"/>
+      <stop offset="1" stop-color="#8BFFB0"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="50" rx="11" fill="#050B14" stroke="url(#border)" stroke-opacity="0.55"/>
+  <text x="28" y="21" fill="#43F0E7" font-family="DejaVu Sans Mono, monospace" font-size="10" letter-spacing="1.8">DATA BUS</text>
+  <text x="28" y="37" fill="#64748B" font-family="DejaVu Sans Mono, monospace" font-size="9" letter-spacing="1.1">TX / RX</text>
+  <path class="forward" d="M122 18H1058" stroke="#43F0E7" stroke-width="2" stroke-dasharray="4 14"/>
+  <path class="reverse" d="M122 34H1058" stroke="#8BFFB0" stroke-opacity="0.55" stroke-dasharray="2 18"/>
+  <circle class="live" cx="1081" cy="26" r="4" fill="#8BFFB0"/>
+  <text x="1095" y="30" fill="#8BFFB0" font-family="DejaVu Sans Mono, monospace" font-size="10" letter-spacing="1.1">LIVE</text>
+</svg>

@@ -8,9 +8,17 @@
   <br />
 
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2600&pause=1000&color=43F0E7&center=true&vCenter=true&width=820&lines=%24+build+--target+web%2Cmobile%2Cdata%2Cplatform;%24+maintain+--quality+production+--mode+continuous;%24+ship+ideas+into+reliable+products" alt="Animated developer commands" />
+
+  <p>
+    <a href="#profile"><kbd>01 PROFILE</kbd></a>&nbsp;
+    <a href="#projects"><kbd>02 PROJECTS</kbd></a>&nbsp;
+    <a href="#stack"><kbd>03 STACK</kbd></a>&nbsp;
+    <a href="#activity"><kbd>06 ACTIVITY</kbd></a>
+  </p>
 </div>
 
 <a id="english"></a>
+<a id="profile"></a>
 
 ## `01 // PROFILE`
 
@@ -29,6 +37,12 @@ I am a freelance full-stack developer who builds and maintains software across t
 - `RELIABILITY` — code maintenance, database stewardship, platform operations, and continuous improvement
 - `EXPLORATION` — AI-assisted workflows, automation, and more expressive human–computer interaction
 
+<p align="center">
+  <img width="100%" src="./assets/data-stream.svg" alt="Animated data stream divider" />
+</p>
+
+<a id="projects"></a>
+
 ## `02 // FEATURED PROJECT`
 
 <h3 align="center">
@@ -43,17 +57,19 @@ I am a freelance full-stack developer who builds and maintains software across t
 
 <table align="center">
   <tr>
-    <td align="center"><img src="https://raw.githubusercontent.com/TiantianTitan/codex-anime-pets/main/work/xiao/2d/qa/previews/idle.gif" width="118" alt="Xiao idle animation" /></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/TiantianTitan/codex-anime-pets/main/work/dan-heng-imbibitor-lunae/2d/qa/previews/waving.gif" width="118" alt="Dan Heng waving animation" /></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/TiantianTitan/codex-anime-pets/main/work/jing-yuan/2d/qa/previews/jumping.gif" width="118" alt="Jing Yuan jumping animation" /></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/TiantianTitan/codex-anime-pets/main/work/zhongli/2d/qa/previews/review.gif" width="118" alt="Zhongli review animation" /></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/TiantianTitan/codex-anime-pets/main/work/raiden-mei/3d/qa/previews/running.gif" width="118" alt="Raiden Mei processing animation" /></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/TiantianTitan/codex-anime-pets/f843c0969858095408880281616caa39a0aff095/work/xiao/2d/qa/previews/idle.gif" width="118" alt="Xiao idle animation" /></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/TiantianTitan/codex-anime-pets/f843c0969858095408880281616caa39a0aff095/work/dan-heng-imbibitor-lunae/2d/qa/previews/waving.gif" width="118" alt="Dan Heng waving animation" /></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/TiantianTitan/codex-anime-pets/f843c0969858095408880281616caa39a0aff095/work/jing-yuan/2d/qa/previews/jumping.gif" width="118" alt="Jing Yuan jumping animation" /></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/TiantianTitan/codex-anime-pets/f843c0969858095408880281616caa39a0aff095/work/zhongli/2d/qa/previews/review.gif" width="118" alt="Zhongli review animation" /></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/TiantianTitan/codex-anime-pets/f843c0969858095408880281616caa39a0aff095/work/raiden-mei/3d/qa/previews/running.gif" width="118" alt="Raiden Mei processing animation" /></td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://github.com/TiantianTitan/codex-anime-pets"><strong>ACCESS REPOSITORY →</strong></a>
 </p>
+
+<a id="stack"></a>
 
 ## `03 // SYSTEM STACK`
 
@@ -169,7 +185,21 @@ Karaoké · Tennis de table · Cinéma · Randonnée · Lecture
 
 </details>
 
-## `06 // ACTIVITY TELEMETRY`
+<a id="activity"></a>
+
+## `06 // CONTRIBUTION STREAM`
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TiantianTitan/TiantianTitan/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TiantianTitan/TiantianTitan/output/github-contribution-grid-snake.svg" />
+    <img width="100%" alt="Animated GitHub contribution stream" src="https://raw.githubusercontent.com/TiantianTitan/TiantianTitan/output/github-contribution-grid-snake.svg" />
+  </picture>
+  <br />
+  <sub>Generated daily from the live contribution graph.</sub>
+</p>
+
+## `07 // ACTIVITY TELEMETRY`
 
 <div align="center">
   <img width="95%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TiantianTitan&theme=github_dark" alt="TiantianTitan's GitHub profile summary" />
@@ -182,4 +212,8 @@ Karaoké · Tennis de table · Cinéma · Randonnée · Lecture
 
 <p align="center">
   <code>SYSTEM ONLINE</code> · <code>KEEP BUILDING</code> · <code>KEEP SHIPPING</code>
+</p>
+
+<p align="center">
+  <img width="100%" src="./assets/data-stream.svg" alt="Animated data stream footer" />
 </p>
