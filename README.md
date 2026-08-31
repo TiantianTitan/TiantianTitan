@@ -14,8 +14,6 @@
     <a href="#projects"><kbd>04 PROJECT ARCHIVE</kbd></a>&nbsp;
     <a href="#activity"><kbd>06 LIVE ACTIVITY</kbd></a>
   </p>
-
-  <samp>FREELANCE // FULL-STACK // PRODUCT SYSTEMS // ALWAYS IN ITERATION</samp>
 </div>
 
 <p align="center">
@@ -35,21 +33,12 @@
     </td>
     <td width="38%" valign="top">
       <h3>MISSION CONTROL</h3>
-      <p><code>STATUS</code> Freelance / Independent</p>
       <p><code>MODE</code> Build → Ship → Observe → Improve</p>
-      <p><code>SCOPE</code> Web · Mobile · Data · Platform</p>
       <p><code>PRIORITY</code> Clarity · Maintainability · Delivery</p>
+      <p><code>WORK</code> Products · Codebases · Data · Platforms</p>
     </td>
   </tr>
 </table>
-
-<div align="center">
-  <code>PRODUCT DELIVERY</code> · <code>FULL-STACK ENGINEERING</code> · <code>DATABASE STEWARDSHIP</code> · <code>PLATFORM OPERATIONS</code>
-</div>
-
-<p align="center">
-  <img width="100%" src="https://github.com/TiantianTitan/TiantianTitan/raw/refs/heads/main/assets/data-stream.svg" alt="Animated data stream" />
-</p>
 
 <a id="featured"></a>
 
@@ -98,7 +87,7 @@
     <td width="50%" valign="top">
       <h3><code>02</code> DATA LAYER</h3>
       <p><strong>Application & Data</strong><br />Node.js · PostgreSQL · Prisma · Supabase · Redis</p>
-      <p><strong>Integrations</strong><br />AWS S3 · Clerk · Stripe · OpenAI</p>
+      <p><strong>Integrations</strong><br />Clerk · Stripe · OpenAI</p>
     </td>
   </tr>
   <tr>
@@ -114,10 +103,6 @@
     </td>
   </tr>
 </table>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,cs,react,nextjs,tailwind,nodejs,postgres,prisma,supabase,redis,unity,githubactions,aws,vercel,cloudflare&theme=dark&perline=9" alt="Technology stack" />
-</div>
 
 <a id="projects"></a>
 
@@ -167,14 +152,7 @@
 
 ### `自由职业全栈开发者`
 
-我承接产品与软件开发、代码维护、数据库管理和平台运维。我的工作覆盖从需求梳理、功能开发到上线后的系统维护，重点是让产品清晰、代码可维护、交付可靠，并能持续迭代。
-
-| 方向 | 内容 |
-| --- | --- |
-| 产品与工程 | Web、移动端、跨端产品与系统集成 |
-| 数据与平台 | 数据库、代码维护、平台运维与稳定交付 |
-| 主要项目 | Codex Anime Pets、Friemi、Old-6、YI Credit、口袋小店 |
-| 工作之外 | 唱 K、乒乓球、电影、徒步、阅读 |
+自由职业全栈开发者，提供产品与软件开发、代码维护、数据库管理和平台运维服务。重点项目包括 Codex Anime Pets、Friemi、Old-6、YI Credit 和口袋小店；工作之外喜欢唱 K、乒乓球、电影、徒步和阅读。
 
 </details>
 
@@ -183,14 +161,7 @@
 
 ### `Développeur full-stack freelance`
 
-Je réalise le développement de produits et de logiciels, la maintenance du code, la gestion des bases de données et l'exploitation de plateformes. Mon travail couvre tout le cycle de vie d'un produit, des besoins initiaux jusqu'à l'amélioration continue après la mise en ligne.
-
-| Domaine | Contenu |
-| --- | --- |
-| Produit & ingénierie | Web, mobile, applications multiplateformes et intégrations |
-| Données & plateformes | Bases de données, maintenance, exploitation et livraisons fiables |
-| Projets principaux | Codex Anime Pets, Friemi, Old-6, YI Credit, Pocket Shop |
-| En dehors du code | Karaoké, tennis de table, cinéma, randonnée, lecture |
+Développeur full-stack freelance, je réalise le développement de produits et de logiciels, la maintenance du code, la gestion des bases de données et l'exploitation de plateformes. Mes projets principaux sont Codex Anime Pets, Friemi, Old-6, YI Credit et Pocket Shop ; en dehors du code, j'aime le karaoké, le tennis de table, le cinéma, la randonnée et la lecture.
 
 </details>
 
@@ -220,7 +191,5 @@ Je réalise le développement de produits et de logiciels, la maintenance du cod
 </div>
 
 <p align="center">
-  <code>SYSTEM ONLINE</code> · <code>KEEP BUILDING</code> · <code>KEEP SHIPPING</code>
-  <br /><br />
-  <img width="100%" src="https://github.com/TiantianTitan/TiantianTitan/raw/refs/heads/main/assets/data-stream.svg" alt="Animated data stream" />
+  <samp>END OF TRANSMISSION</samp>
 </p>
