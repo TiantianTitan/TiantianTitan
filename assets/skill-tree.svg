@@ -1,80 +1,70 @@
-<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="540" viewBox="0 0 1200 540" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    @keyframes flow { to { stroke-dashoffset: -180; } }
-    @keyframes breathe { 0%,100% { opacity: .62; } 50% { opacity: 1; } }
-    @keyframes ring { 0% { transform: scale(.55); opacity: .5; } 80%,100% { transform: scale(1.3); opacity: 0; } }
-    @keyframes shimmer { 0%,100% { fill-opacity: .72; } 50% { fill-opacity: 1; } }
-    .branch { stroke-dasharray: 16 14; animation: flow 9s linear infinite; }
-    .branch-alt { animation-direction: reverse; animation-duration: 11s; }
-    .hub { animation: breathe 2.1s ease-in-out infinite; }
-    .hub-ring { transform-box: fill-box; transform-origin: center; animation: ring 2.6s ease-out infinite; }
-    .hub-ring-delay { animation-delay: 1.3s; }
-    .leaf { animation: shimmer 2.4s ease-in-out infinite; }
-    .leaf-delay { animation-delay: 1.1s; }
-    @media (prefers-reduced-motion: reduce) { .branch, .hub, .hub-ring, .leaf { animation: none; } }
+    .label { font-family: DejaVu Sans Mono, monospace; }
   </style>
   <defs>
-    <linearGradient id="edge" x1="38" y1="22" x2="1162" y2="478" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#153A4C"/>
-      <stop offset=".48" stop-color="#37E8E2"/>
-      <stop offset="1" stop-color="#8BFFB0"/>
+    <linearGradient id="edge" x1="24" y1="20" x2="1176" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#174A57"/>
+      <stop offset=".55" stop-color="#2ED8D1"/>
+      <stop offset="1" stop-color="#174A57"/>
     </linearGradient>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
 
-  <rect x="1" y="1" width="1198" height="498" rx="18" fill="#050B14" stroke="url(#edge)" stroke-opacity=".7" stroke-width="2"/>
-  <path d="M34 48H1166M34 452H1166" stroke="#43F0E7" stroke-opacity=".08"/>
-  <text x="38" y="34" fill="#64748B" font-family="DejaVu Sans Mono, monospace" font-size="11" letter-spacing="1.6">COMPETENCY.TREE / SYSTEM TOPOLOGY</text>
-  <text x="1160" y="34" text-anchor="end" fill="#8BFFB0" font-family="DejaVu Sans Mono, monospace" font-size="11">● SIGNAL FLOW</text>
+  <rect x="1" y="1" width="1198" height="538" rx="14" fill="#07101A" stroke="url(#edge)" stroke-width="2"/>
+  <path d="M34 56H1166M34 500H1166" stroke="#B6EEF0" stroke-opacity=".12"/>
+  <text class="label" x="40" y="36" fill="#7894A5" font-size="13" letter-spacing="1.7">CAPABILITY MAP / FULL-STACK PRACTICE</text>
+  <text class="label" x="1160" y="36" text-anchor="end" fill="#65D9D2" font-size="13">01 CORE · 04 DOMAINS</text>
 
-  <path class="branch" d="M600 235V160H286V126" stroke="#43F0E7" stroke-opacity=".72" stroke-width="2"/>
-  <path class="branch branch-alt" d="M600 235V160H914V126" stroke="#8BFFB0" stroke-opacity=".72" stroke-width="2"/>
-  <path class="branch branch-alt" d="M600 265V340H286V374" stroke="#43F0E7" stroke-opacity=".62" stroke-width="2"/>
-  <path class="branch" d="M600 265V340H914V374" stroke="#8BFFB0" stroke-opacity=".62" stroke-width="2"/>
+  <rect x="405" y="88" width="390" height="82" rx="10" fill="#0A1A24" stroke="#38D8D1" stroke-width="2"/>
+  <text class="label" x="600" y="121" text-anchor="middle" fill="#ECFFFF" font-size="21" font-weight="700" letter-spacing="1.2">FULL-STACK DELIVERY</text>
+  <text class="label" x="600" y="147" text-anchor="middle" fill="#79C9C7" font-size="14" letter-spacing="1">BUILD · MAINTAIN · IMPROVE</text>
 
-  <circle class="hub-ring" cx="600" cy="250" r="48" stroke="#43F0E7" stroke-opacity=".34"/>
-  <circle class="hub-ring hub-ring-delay" cx="600" cy="250" r="40" stroke="#8BFFB0" stroke-opacity=".25"/>
-  <rect x="500" y="220" width="200" height="60" rx="12" fill="#09202B" stroke="#43F0E7" stroke-width="2" filter="url(#glow)"/>
-  <text x="600" y="246" text-anchor="middle" fill="#E8FEFF" font-family="DejaVu Sans Mono, monospace" font-size="16" font-weight="700" letter-spacing="1.5">FULL-STACK</text>
-  <text x="600" y="267" text-anchor="middle" fill="#43F0E7" font-family="DejaVu Sans Mono, monospace" font-size="10" letter-spacing="1.8">SYSTEM BUILDER</text>
-  <circle class="hub" cx="600" cy="205" r="4" fill="#8BFFB0" filter="url(#glow)"/>
+  <path d="M600 170V215M150 215H1050M150 215V250M450 215V250M750 215V250M1050 215V250" stroke="#43CFC8" stroke-opacity=".7" stroke-width="2"/>
+  <circle cx="600" cy="215" r="5" fill="#65D9D2"/>
+  <circle cx="150" cy="215" r="4" fill="#65D9D2"/>
+  <circle cx="450" cy="215" r="4" fill="#65D9D2"/>
+  <circle cx="750" cy="215" r="4" fill="#65D9D2"/>
+  <circle cx="1050" cy="215" r="4" fill="#65D9D2"/>
 
   <g>
-    <rect x="72" y="66" width="428" height="120" rx="12" fill="#09121E" stroke="#1A4A5B"/>
-    <rect class="leaf" x="92" y="88" width="10" height="10" rx="2" fill="#43F0E7"/>
-    <text x="116" y="98" fill="#E8FEFF" font-family="DejaVu Sans Mono, monospace" font-size="14" font-weight="700">WEB EXPERIENCE</text>
-    <text x="92" y="126" fill="#8DA8B8" font-family="DejaVu Sans Mono, monospace" font-size="12">TypeScript · React · Next.js</text>
-    <text x="92" y="150" fill="#8DA8B8" font-family="DejaVu Sans Mono, monospace" font-size="12">Tailwind CSS · Ant Design</text>
-    <text x="92" y="170" fill="#43F0E7" font-family="DejaVu Sans Mono, monospace" font-size="10" letter-spacing="1.2">PRODUCT INTERFACES</text>
+    <rect x="42" y="250" width="216" height="198" rx="8" fill="#0A1620" stroke="#234A58"/>
+    <text class="label" x="64" y="282" fill="#65D9D2" font-size="14" font-weight="700">01 / WEB</text>
+    <path d="M64 298H236" stroke="#65D9D2" stroke-opacity=".34"/>
+    <text class="label" x="64" y="328" fill="#E2F4F5" font-size="16" font-weight="700">Interfaces</text>
+    <text class="label" x="64" y="358" fill="#A9C0C9" font-size="14">TypeScript · React</text>
+    <text class="label" x="64" y="382" fill="#A9C0C9" font-size="14">Next.js · Tailwind</text>
+    <text class="label" x="64" y="414" fill="#65D9D2" font-size="13">PRODUCT UI</text>
   </g>
 
   <g>
-    <rect x="700" y="66" width="428" height="120" rx="12" fill="#09121E" stroke="#285A50"/>
-    <rect class="leaf leaf-delay" x="720" y="88" width="10" height="10" rx="2" fill="#8BFFB0"/>
-    <text x="744" y="98" fill="#E8FEFF" font-family="DejaVu Sans Mono, monospace" font-size="14" font-weight="700">DATA &amp; INTEGRATIONS</text>
-    <text x="720" y="126" fill="#8DA8B8" font-family="DejaVu Sans Mono, monospace" font-size="12">Node.js · PostgreSQL · Prisma</text>
-    <text x="720" y="150" fill="#8DA8B8" font-family="DejaVu Sans Mono, monospace" font-size="12">Supabase · Redis · Clerk · Stripe</text>
-    <text x="720" y="170" fill="#8BFFB0" font-family="DejaVu Sans Mono, monospace" font-size="10" letter-spacing="1.2">RELIABLE SYSTEMS</text>
+    <rect x="342" y="250" width="216" height="198" rx="8" fill="#0A1620" stroke="#234A58"/>
+    <text class="label" x="364" y="282" fill="#65D9D2" font-size="14" font-weight="700">02 / DATA</text>
+    <path d="M364 298H536" stroke="#65D9D2" stroke-opacity=".34"/>
+    <text class="label" x="364" y="328" fill="#E2F4F5" font-size="16" font-weight="700">Systems</text>
+    <text class="label" x="364" y="358" fill="#A9C0C9" font-size="14">Node.js · PostgreSQL</text>
+    <text class="label" x="364" y="382" fill="#A9C0C9" font-size="14">Prisma · Supabase</text>
+    <text class="label" x="364" y="414" fill="#65D9D2" font-size="13">DATA &amp; INTEGRATIONS</text>
   </g>
 
   <g>
-    <rect x="72" y="314" width="428" height="120" rx="12" fill="#09121E" stroke="#1A4A5B"/>
-    <rect class="leaf leaf-delay" x="92" y="336" width="10" height="10" rx="2" fill="#43F0E7"/>
-    <text x="116" y="346" fill="#E8FEFF" font-family="DejaVu Sans Mono, monospace" font-size="14" font-weight="700">MOBILE &amp; CREATIVE</text>
-    <text x="92" y="374" fill="#8DA8B8" font-family="DejaVu Sans Mono, monospace" font-size="12">React Native · Expo · Unity · C#</text>
-    <text x="92" y="398" fill="#8DA8B8" font-family="DejaVu Sans Mono, monospace" font-size="12">Python · Animation Pipelines · Visual QA</text>
-    <text x="92" y="418" fill="#43F0E7" font-family="DejaVu Sans Mono, monospace" font-size="10" letter-spacing="1.2">INTERACTIVE PRODUCTS</text>
+    <rect x="642" y="250" width="216" height="198" rx="8" fill="#0A1620" stroke="#234A58"/>
+    <text class="label" x="664" y="282" fill="#65D9D2" font-size="14" font-weight="700">03 / MOBILE</text>
+    <path d="M664 298H836" stroke="#65D9D2" stroke-opacity=".34"/>
+    <text class="label" x="664" y="328" fill="#E2F4F5" font-size="16" font-weight="700">Interactive work</text>
+    <text class="label" x="664" y="358" fill="#A9C0C9" font-size="14">React Native · Expo</text>
+    <text class="label" x="664" y="382" fill="#A9C0C9" font-size="14">Unity · C# · Python</text>
+    <text class="label" x="664" y="414" fill="#65D9D2" font-size="13">MOBILE &amp; CREATIVE</text>
   </g>
 
   <g>
-    <rect x="700" y="314" width="428" height="120" rx="12" fill="#09121E" stroke="#285A50"/>
-    <rect class="leaf" x="720" y="336" width="10" height="10" rx="2" fill="#8BFFB0"/>
-    <text x="744" y="346" fill="#E8FEFF" font-family="DejaVu Sans Mono, monospace" font-size="14" font-weight="700">DELIVERY &amp; PLATFORM</text>
-    <text x="720" y="374" fill="#8DA8B8" font-family="DejaVu Sans Mono, monospace" font-size="12">Turborepo · Playwright · GitHub Actions</text>
-    <text x="720" y="398" fill="#8DA8B8" font-family="DejaVu Sans Mono, monospace" font-size="12">AWS · Vercel · Cloudflare</text>
-    <text x="720" y="418" fill="#8BFFB0" font-family="DejaVu Sans Mono, monospace" font-size="10" letter-spacing="1.2">SHIP · OBSERVE · IMPROVE</text>
+    <rect x="942" y="250" width="216" height="198" rx="8" fill="#0A1620" stroke="#234A58"/>
+    <text class="label" x="964" y="282" fill="#65D9D2" font-size="14" font-weight="700">04 / DELIVERY</text>
+    <path d="M964 298H1136" stroke="#65D9D2" stroke-opacity=".34"/>
+    <text class="label" x="964" y="328" fill="#E2F4F5" font-size="16" font-weight="700">Operations</text>
+    <text class="label" x="964" y="358" fill="#A9C0C9" font-size="14">Playwright · Actions</text>
+    <text class="label" x="964" y="382" fill="#A9C0C9" font-size="14">AWS · Vercel · Cloudflare</text>
+    <text class="label" x="964" y="414" fill="#65D9D2" font-size="13">SHIP &amp; MAINTAIN</text>
   </g>
+
+  <text class="label" x="600" y="480" text-anchor="middle" fill="#7894A5" font-size="13">Clear product delivery across interface, data, interactive experience, and platform operations.</text>
 </svg>

@@ -80,7 +80,7 @@
 <p align="center">
   <img width="100%" src="https://github.com/TiantianTitan/TiantianTitan/raw/refs/heads/main/assets/skill-tree.svg" alt="Animated full-stack skill tree" />
   <br />
-  <sub>One core discipline, four connected capability branches.</sub>
+    <sub>A practical capability map: clear scope, technologies, and delivery focus.</sub>
 </p>
 
 <a id="projects"></a>
