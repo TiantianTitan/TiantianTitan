@@ -10,8 +10,8 @@
   <p>
     <a href="#profile"><kbd>01 PROFILE</kbd></a>&nbsp;
     <a href="#featured"><kbd>02 FEATURED BUILD</kbd></a>&nbsp;
-    <a href="#stack"><kbd>03 SYSTEM MAP</kbd></a>&nbsp;
-    <a href="#projects"><kbd>04 PROJECT ARCHIVE</kbd></a>&nbsp;
+    <a href="#stack"><kbd>03 SKILL TREE</kbd></a>&nbsp;
+    <a href="#projects"><kbd>04 FRIEMI</kbd></a>&nbsp;
     <a href="#activity"><kbd>06 LIVE ACTIVITY</kbd></a>
   </p>
 </div>
@@ -75,62 +75,31 @@
 
 <a id="stack"></a>
 
-## `03 // SYSTEM MAP`
+## `03 // SKILL TREE`
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><code>01</code> EXPERIENCE LAYER</h3>
-      <p><strong>Web & UI</strong><br />TypeScript · React · Next.js · Tailwind CSS · Ant Design</p>
-      <p><strong>Mobile</strong><br />React Native · Expo · Capacitor</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><code>02</code> DATA LAYER</h3>
-      <p><strong>Application & Data</strong><br />Node.js · PostgreSQL · Prisma · Supabase · Redis</p>
-      <p><strong>Integrations</strong><br />Clerk · Stripe · OpenAI</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><code>03</code> CREATIVE LAYER</h3>
-      <p><strong>Interactive Work</strong><br />Unity · C# · Python · Animation Pipelines</p>
-      <p><strong>Quality</strong><br />Visual QA · Sprite Sheets · Localization</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><code>04</code> DELIVERY LAYER</h3>
-      <p><strong>Engineering Operations</strong><br />Turborepo · Playwright · GitHub Actions</p>
-      <p><strong>Platform</strong><br />Vercel · Cloudflare · AWS</p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img width="100%" src="https://github.com/TiantianTitan/TiantianTitan/raw/refs/heads/main/assets/skill-tree.svg" alt="Animated full-stack skill tree" />
+  <br />
+  <sub>One core discipline, four connected capability branches.</sub>
+</p>
 
 <a id="projects"></a>
 
-## `04 // PROJECT ARCHIVE`
+## `04 // SELECTED PERSONAL PROJECT`
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3><code>WEB / SOCIAL</code><br /><a href="https://github.com/friemidev/friemi">FRIEMI ↗</a></h3>
+    <td width="68%" valign="top">
+      <h3><code>WEB / SOCIAL / COMMUNITY</code><br /><a href="https://github.com/friemidev/friemi">FRIEMI ↗</a></h3>
       <p>A multilingual activity discovery and meetup platform for life abroad—connecting city events, group plans, messaging, social footprints, and offline game tools.</p>
       <p><code>TypeScript</code> <code>Next.js</code> <code>Prisma</code> <code>Supabase</code> <code>Redis</code></p>
     </td>
-    <td width="50%" valign="top">
-      <h3><code>PLATFORM / LOCAL LIFE</code><br />OLD-6 <sub>PRIVATE SYSTEM</sub></h3>
-      <p>A multi-platform service ecosystem for the Chinese community in France, spanning local businesses, bookings, content, community features, and platform operations.</p>
-      <p><code>Next.js</code> <code>React Native</code> <code>Expo</code> <code>PostgreSQL</code> <code>Cloudflare</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><code>FINTECH / SERVICES</code><br /><a href="https://github.com/dandelion-technologie/yi-credit">YI CREDIT ↗</a></h3>
-      <p>A multilingual platform for credit and financing advisory services in France, supporting content delivery, document workflows, and digital operations.</p>
-      <p><code>Next.js</code> <code>Expo</code> <code>Prisma</code> <code>AWS S3</code> <code>OpenAI</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><code>GAME / MOBILE</code><br /><a href="https://github.com/TiantianTitan/IDLE-SHOP">POCKET SHOP ↗</a></h3>
-      <p>A multilingual Unity 2D idle shop game for Android with automated customers, inventory, staff progression, local saves, and offline earnings.</p>
-      <p><code>Unity</code> <code>C#</code> <code>Android</code> <code>Localization</code></p>
+    <td width="32%" valign="top">
+      <h3>PRODUCT FOCUS</h3>
+      <p><code>DISCOVER</code> city activities</p>
+      <p><code>ORGANIZE</code> group plans</p>
+      <p><code>CONNECT</code> people and places</p>
+      <p><code>LANGUAGES</code> 中文 · English · Français</p>
     </td>
   </tr>
 </table>
@@ -152,7 +121,7 @@
 
 ### `自由职业全栈开发者`
 
-自由职业全栈开发者，提供产品与软件开发、代码维护、数据库管理和平台运维服务。重点项目包括 Codex Anime Pets、Friemi、Old-6、YI Credit 和口袋小店；工作之外喜欢唱 K、乒乓球、电影、徒步和阅读。
+自由职业全栈开发者，提供产品与软件开发、代码维护、数据库管理和平台运维服务。个人项目是面向海外生活场景的多语言活动与组局平台 Friemi；工作之外喜欢唱 K、乒乓球、电影、徒步和阅读。
 
 </details>
 
@@ -161,7 +130,7 @@
 
 ### `Développeur full-stack freelance`
 
-Développeur full-stack freelance, je réalise le développement de produits et de logiciels, la maintenance du code, la gestion des bases de données et l'exploitation de plateformes. Mes projets principaux sont Codex Anime Pets, Friemi, Old-6, YI Credit et Pocket Shop ; en dehors du code, j'aime le karaoké, le tennis de table, le cinéma, la randonnée et la lecture.
+Développeur full-stack freelance, je réalise le développement de produits et de logiciels, la maintenance du code, la gestion des bases de données et l'exploitation de plateformes. Mon projet personnel est Friemi, une plateforme multilingue de découverte d'activités et d'organisation de sorties ; en dehors du code, j'aime le karaoké, le tennis de table, le cinéma, la randonnée et la lecture.
 
 </details>
 
